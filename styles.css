@@ -1,1 +1,13 @@
-/*  your css code here. If applicable */
+    .main-container {
+      display: inline-block;
+    }
+
+    .main-container::before,
+    .main-container::after {
+      content: "Before element";
+      color: red;
+    }
+
+    .main-container::after {
+      content: "After element";
+    }
