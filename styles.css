@@ -1,13 +1,13 @@
-    .main-container {
+ .main-container {
       display: inline-block;
     }
 
     .main-container::before,
     .main-container::after {
-      content: "Before element";
+      content: "Before Element";
       color: red;
     }
 
     .main-container::after {
-      content: "After element";
+      content: "After Element";
     }
